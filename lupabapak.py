@@ -38,7 +38,7 @@ try:
 		seller = p.find("h5", attrs={'class':'user__name'})
 		sell = seller.find("a",href=True)
 		price = p.find("span", attrs={'class':'amount positive'})
-		img = p.find("source").get('data-src')
+		# img = p.find("source").get('data-src')
 		print(Fore.GREEN + "[+] " +Fore.YELLOW + name.text )
 		print(Fore.GREEN + "[+] " +Fore.YELLOW + sell.text )
 		print(Fore.GREEN + "[+] " +Fore.YELLOW + "Rp" + price.text + "\n")
