@@ -4,6 +4,7 @@ Scraping Tool
 Packages needed
 - requests
 - BeautifulSoup
+- csv
 - colorama(optional)
 
 How to use :
