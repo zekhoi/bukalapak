@@ -8,4 +8,6 @@ Packages needed
 
 How to use :
  - python lupabapak.py
- - then insert the keyword 
+ - insert the keyword(yang dicari)
+ - insert start page(mulai page berapa)
+ - insert end page(sampai page berapa)
