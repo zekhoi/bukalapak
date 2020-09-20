@@ -7,7 +7,7 @@ import csv
 init()
 
 def curl(page,query):
-    return req.get('https://www.bukalapak.com/products/s?from=omnisearch&from_keyword_history=false&page='+page+'&search%5Bkeywords%5D='+query+'&search_source=omnisearch_organic&source=navbar&utf8=%E2%9C%93')
+    return req.get('https://www.bukalapak.com/products?page='+page+'&search%5Bkeywords%5D=+query')
 
 # def ani():
 #     for i in range(10):
